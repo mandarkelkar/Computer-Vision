@@ -1,0 +1,1 @@
+I have used a median filter for preprocessing. I found it to be the optimum pre-processing filter as this preserves the edges while removing noise. After the K-means thresholding, I use Morphological opening filter to remove small white circles inside the eggs' nucleus (which was a case in image 2). This is done in anticipation of the next step of the assignment.
